@@ -86,8 +86,16 @@ const LeavingCard = () => {
 		{
 			name: "Hadrian",
 			role: "Backender at the wrong party",
-			message: "It's been great working with you Ben. Hope we get to work together in the future. All the best!",
+			message:
+				"It's been great working with you Ben. Hope we get to work together in the future. All the best!",
 			timestamp: 1763480376772,
+		},
+		{
+			name: "Peter B",
+			role: "Undercover retro computing advocate",
+			message:
+				"Ben you are officially my Buddy. It was good to chat to you in those early days when I first joined K+C. Little did I know it was also the twilight days of K+C!",
+			timestamp: 1699903723000,
 		},
 	];
 
