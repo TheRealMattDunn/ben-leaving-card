@@ -83,6 +83,12 @@ const LeavingCard = () => {
 			message: "Ms here",
 			timestamp: 1699890123000,
 		},
+		{
+			name: "Hadrian",
+			role: "Backender at the wrong party",
+			message: "It's been great working with you Ben. Hope we get to work together in the future. All the best!",
+			timestamp: 1763480376772,
+		},
 	];
 
 	if (isLoading) {
