@@ -72,30 +72,30 @@ const LeavingCard = () => {
 
 	const signatures: Signature[] = [
 		{
-			name: "Radu Micu",
+			name: "Radu",
 			role: "Benevolent dictator of vanilla JS",
-			message: "Msg here.",
-			timestamp: 1699876543000,
+			message: "God damn it was great working with you Ben. Gonna miss the banter and your wit! I'm sure will find myself thinking what would Ben say about this or that. Also gonna miss your tech insights as pure as a baritone singing :P. Whishing you all the best in your next adventure my friend! 💚",
+			timestamp: 1763481390,
 		},
 		{
 			name: "Jon T",
 			role: "Chief Trombone Officer of pre fax age",
-			message: "Ms here",
-			timestamp: 1699890123000,
+			message: "Ben, you're always running here and there (here and there) / You feel you're not wanted anywhere (anywhere) / If, you ever look behind / And don't like what you find / There's something you should know - / I’m always up for a pint if you’re in town, don’t be a stranger, yea? / Cheers lad",
+			timestamp: 1763481390,
 		},
 		{
 			name: "Hadrian",
 			role: "Backender at the wrong party",
 			message:
 				"It's been great working with you Ben. Hope we get to work together in the future. All the best!",
-			timestamp: 1763480376772,
+			timestamp: 1763481390,
 		},
 		{
 			name: "Peter B",
 			role: "Undercover retro computing advocate",
 			message:
 				"Ben you are officially my Buddy. It was good to chat to you in those early days when I first joined K+C. Little did I know it was also the twilight days of K+C!",
-			timestamp: 1699903723000,
+			timestamp: 1763481390,
 		},
 	];
 
