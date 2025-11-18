@@ -386,7 +386,7 @@ const LeavingCard = () => {
 								</p>
 							</div>
 
-							<div className="space-y-3 max-h-80 overflow-y-auto pr-2">
+							<div className="space-y-3 max-h-80 overflow-y-auto pr-2 nice-scrollbar">
 								{signatures.map((sig, idx) => (
 									<div
 										key={idx}

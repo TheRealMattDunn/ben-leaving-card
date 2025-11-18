@@ -120,6 +120,32 @@ All colors MUST be HSL.
 }
 
 @layer utilities {
+	.nice-scrollbar {
+		--sb-track-color: #232e33;
+		--sb-thumb-color: #6baf8d;
+		--sb-size: 8px;
+	}
+
+	.nice-scrollbar::-webkit-scrollbar {
+		width: var(--sb-size);
+	}
+
+	.nice-scrollbar::-webkit-scrollbar-track {
+		background: var(--sb-track-color);
+		border-radius: 4px;
+	}
+
+	.nice-scrollbar::-webkit-scrollbar-thumb {
+		background: var(--sb-thumb-color);
+		border-radius: 4px;
+	}
+
+	@supports not selector(::-webkit-scrollbar) {
+		.nice-scrollbar {
+			scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+		}
+	}
+
 	.text-terminal {
 		color: hsl(var(--terminal-green));
 	}
