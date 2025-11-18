@@ -5,6 +5,7 @@ import { Separator } from "./ui/separator";
 import LoadingScreen from "./LoadingScreen";
 import VisitorCounter from "./VisitorCounter";
 import MatrixEffect from "./MatrixEffect";
+import HackerText from "./HackerText";
 import { terminalSounds } from "./../utils/terminalSounds";
 import { useKonamiCode } from "./../hooks/useKonamiCode";
 import { useBSODCode } from "./../hooks/useBSODCode";
@@ -426,9 +427,13 @@ const LeavingCard = () => {
 								P.S. - Save your Stack Overflow karma. You might
 								need it in the museum.
 							</p>
-							<p className="text-comment text-xs">
-								Konami, BSOD codes enabled for extra fun!
-							</p>
+							<HackerText
+								text="Konami, BSOD codes enabled for extra fun!"
+								className="text-comment text-xs glitch"
+								cycleDelay={12000}
+								glitchDuration={3000}
+								visibleDuration={5000}
+							/>
 						</div>
 
 						<Separator className="bg-border" />
